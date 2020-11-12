@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  color: #33475b;
+}
+
 /* GENERAL RULES */
 .float-left{
   float: left;
@@ -74,7 +78,9 @@ header{
 
  .header-top{
   height: 60px;
-  background-color: #ccc;
+  background-color: #f4f9fd;
+  /* position: fixed;
+  z-index: 1; */
 }
 
 header .contact{
@@ -128,7 +134,9 @@ header .login{
 
 header .header-bottom{
   height: 60px;
+  /* margin-top: 60px; */
   background-color: #fff;
+  border-top: 1px solid black;
 }
 
  .header-logo{
@@ -176,7 +184,18 @@ header .header-bottom{
   background-position: right bottom;
 }
 
-.pippo{
+.jumbotron .jumbotron-item{
+  width: 27%;
+  height: 480px;
+  padding-top: 40px;
+
+}
+
+.jumbotron .jumbotron-item p{
+  margin: 30px 0;
+}
+
+.jumbotron .row{
   border-bottom: 2px solid black;
   width: 40%;
   height: 57.2px;
