@@ -19,6 +19,11 @@
   clear: both;
 }
 
+
+.full-container{
+  width: 100%;
+}
+
 .container{
   height: 100%;
   width: 80%;
@@ -39,8 +44,8 @@ header{
   background-color: lightgreen;
 }
 
-.header-nav{
-  height: 120px;
+ .header-first{
+  height: 60px;
   background-color: yellow;
 }
 
@@ -67,6 +72,11 @@ header{
   width: 100%;
   height:60px;
   background-color:blue;
+}
+
+header .header-second{
+  height: 60px;
+  background-color: grey;
 }
 
 .header-bottom .header-logo{
