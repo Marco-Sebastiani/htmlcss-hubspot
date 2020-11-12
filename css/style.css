@@ -28,7 +28,7 @@
   height: 100%;
   width: 80%;
   margin: auto;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 
 }
 
@@ -48,14 +48,14 @@
 
 .btn-login{
   color: #fe775a;
-  padding: 5px 10px;
+  padding: 10px 15px;
   border: 1px solid #fe775a;
   background-color: #fff;
 }
 
 .btn-nav{
   color: #fff;
-  padding: 5px 10px;
+  padding: 10px 10px;
   border: 1px solid #fff;
   background-color: #fe775a;
 }
@@ -84,15 +84,20 @@ header .contact{
 
 .contact span{
   display: inline-block;
-  padding: 0 20px;
+  padding-right: 20px;
+  color: #33475b;
 }
 
 .contact a.color-span{
-  color: #6698b1;
+  color: #33475b;
+}
+
+.contact .padding-text{
+  padding-left: 20px;
 }
 
 .span-center{
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
 
 }
@@ -118,24 +123,42 @@ header .login{
 }
 
 .login .span-right span{
-  padding: 0 10px;
+  padding-left: 15px;
 }
 
 header .header-bottom{
   height: 60px;
-  background-color: grey;
+  background-color: #fff;
 }
 
  .header-logo{
   width: 50%;
   height: 60px;
-  background-color: #03a9f4;
+  /* background-color: #03a9f4; */
+}
+
+.header-logo img{
+  margin: 15px 0;
 }
 
  .header-menu{
   width: 50%;
   height: 60px;
-  background-color: #b151ec;
+  /* background-color: #b151ec; */
+}
+
+.header-menu .span-bottom{
+  text-align: right;
+  margin: 20px 0;
+}
+
+.header-menu .span-bottom span{
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.header-menu .span-bottom i{
+  padding-left: 15px;
 }
 
 .jumbotron{
