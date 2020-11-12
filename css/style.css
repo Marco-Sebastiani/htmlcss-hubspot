@@ -32,9 +32,37 @@
 
 }
 
+.btn{
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+}
 
-/* / GENERAL RULES */
+.btn-green{
+  background-color: #7cbb02;
+}
 
+.btn-large{
+  padding: 20px;
+}
+
+.btn-login{
+  color: #fe775a;
+  padding: 5px 10px;
+  border: 1px solid #fe775a;
+  background-color: #fff;
+}
+
+.btn-nav{
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  background-color: #fe775a;
+}
+
+a{
+  text-decoration: none;
+}
 
 /* HEADER */
 
@@ -46,18 +74,21 @@ header{
 
  .header-top{
   height: 60px;
-  background-color: yellow;
+  background-color: #ccc;
 }
 
 header .contact{
   width: 50%;
   height: 60px;
-  /* background-color: red; */
 }
 
 .contact span{
   display: inline-block;
   padding: 0 20px;
+}
+
+.contact a.color-span{
+  color: #6698b1;
 }
 
 .span-center{
@@ -67,16 +98,28 @@ header .contact{
 }
 
 .contact .globe{
-  border-right: 2px solid black;
+  border-right: 2px solid #899397;
+}
+
+#color-search{
+  color: #02a6bf;
 }
 
 header .login{
   width: 50%;
   height: 60px;
-  background-color: orange;
+  text-align: right;
 
 }
 
+.login .span-right {
+  margin: 20px 0;
+  text-align: right;
+}
+
+.login .span-right span{
+  padding: 0 10px;
+}
 
 header .header-bottom{
   height: 60px;
