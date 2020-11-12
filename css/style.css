@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL RULES */
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background-color: lightgrey;
+
+}
+
+
+/* / GENERAL RULES */
+
+
+/* HEADER */
+
+header{
+  width: 100%;
+  height: 600px;
+  background-color: lightgreen;
+}
+
+.header-top{
+  width: 100%;
+  height:60px;
+  background-color: violet;
+}
+
+.header-bottom{
+  width: 100%;
+  height:60px;
+  background-color:blue;
+}
+
+.jumbotron{
+  width: 100%;
+  height: 480px;
+  background-color: pink;
+}
+
+/* /HEADER */
+
+/* MAIN */
+main{
+  width: 100%;
+  /* height: 700px; */
+  background-color: lightblue;
+}
+
+.cube{
+  width: 100%;
+  height: 400px;
+  background-color:red;
+}
+
+.columns{
+  width: 100%;
+  height: 400px;
+  background-color:yellow;
+}
+
+.community{
+  width: 100%;
+  height: 400px;
+  background-color: orange;
+}
+
+.customes{
+  width: 100%;
+  height: 400px;
+  background-color: green;
+}
+/* / MAIN */
+
+/* FOOTER */
+footer{
+  width: 100%;
+  height:450px;
+  background-color: #382525;
+}
+
+/* / FOOTER */
