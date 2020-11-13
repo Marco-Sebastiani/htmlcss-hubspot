@@ -186,6 +186,14 @@ main{
 }
 
 
+.columns-center{
+  margin: 0 5%;
+}
+
+.columns-widht{
+  width: 30%;
+}
+
 
 
 
@@ -202,6 +210,10 @@ main{
   background-color:lightgrey;
 }
 
+
+.rosso{
+  background-color: red;
+}
 
 .celeste{
   background-color: lightblue;
