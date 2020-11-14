@@ -70,7 +70,11 @@ a{
   padding: 20px;
 }
 
+.btn-columns{
+  margin-top: 65px;
+}
 
+/* /regole riutillizzabili */
 
 .header-top{
   width: 100%;
@@ -307,7 +311,7 @@ main{
 .info-text p{
   margin-top: 25px;
   line-height: 30px;
-  padding: 3%;
+  padding: 2%;
 }
 
 .info-text hr{
@@ -330,11 +334,6 @@ main{
   color: #fe775a;
   padding-right: 15px;
 }
-
-.btn-columns{
-  margin-top: 65px;
-}
-
 
 .columns-center{
   margin: 0 5%;
@@ -360,6 +359,38 @@ main{
 .info-service{
   text-align: center;
 }
+
+
+.comunity{
+  color: #fff;
+  background: linear-gradient(45deg, #00a4bd, #00bda5) ;
+}
+
+.comunity-top{
+  text-align: center;
+  padding: 2% 10%;
+}
+
+.comunity-bottom{
+  text-align: center;
+}
+
+.comunity-bottom p{
+  line-height: 35px;
+}
+
+.customers{
+  background-color: #fff;
+}
+
+
+.link{
+  background-color: #32495b;
+}
+
+
+
+
 
 
 /* debugg */
