@@ -175,6 +175,11 @@ main{
   background-color: #f4f9fd;
 }
 
+
+.height-first-section{
+  height: 100%;
+}
+
 .first-section-top{
   width: 68%;
   margin: 0 auto;
@@ -197,15 +202,15 @@ main{
 
 
 .second-section-bottom{
+
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .second-section-bottom-left{
   width: 35%;
-  height: 250px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .img-info{
@@ -226,8 +231,7 @@ main{
 
 .second-section-bottom-right {
   width: 65%;
-  height: 250px;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .second-section-bottom-right p{
