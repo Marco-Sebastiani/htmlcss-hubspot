@@ -166,11 +166,27 @@ header ul li{
 
 /* main */
 main{
-  background-color: #1150a0
+  /* background-color: #1150a0 */
+}
+
+.color-lightgrey{
+  background-color: #f4f9fd;
 }
 
 .first-section-top{
+  width: 68%;
+  margin: 0 auto;
+  padding: 35px 0;
   text-align: center;
+}
+
+.first-section-top img{
+  height: 250px;
+}
+
+.first-section-top h2{
+  text-transform: capitalize;
+  margin-bottom: 15px;
 }
 
 .second-section-bottom-left{
@@ -185,6 +201,10 @@ main{
   background-color: pink;
 }
 
+
+.columns{
+  padding: 25px 0;
+}
 
 .columns-center{
   margin: 0 5%;
