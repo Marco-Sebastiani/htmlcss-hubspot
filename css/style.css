@@ -363,7 +363,8 @@ main{
 
 .comunity{
   color: #fff;
-  background: linear-gradient(45deg, #00a4bd, #00bda5) ;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  padding: 30px 0 60px 0 ;
 }
 
 .comunity-top{
@@ -373,6 +374,7 @@ main{
 
 .comunity-bottom{
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .comunity-bottom p{
@@ -389,9 +391,40 @@ main{
 }
 
 
+.row{
+  text-align: center;
+}
 
+.row-item{
+  width: 25%;
+  border: 1px solid #fff;
+}
 
+.row-item img{
+  margin-top: 25px;
+}
 
+.row-item h3{
+  font-size: 30px;
+  padding: 20px;
+}
+
+.row-item h3::after{
+  content: '+';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 60%;
+  font-weight: normal;
+}
+
+.margin-small{
+padding-bottom: 25px;
+}
+
+#social-margin{
+  padding-top: 13px;
+}
 
 /* debugg */
 .h-200{
@@ -415,6 +448,9 @@ main{
   background-color: lightblue;
 }
 
+.viola{
+  background-color: violet;
+}
 
 .giallo{
   background-color: #ccd66c;
