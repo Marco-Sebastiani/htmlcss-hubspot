@@ -338,15 +338,28 @@ main{
 
 .columns-center{
   margin: 0 5%;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-sales{
+  text-align: center;
 }
 
 .columns-width{
   width: 30%;
 }
 
+.columns-right{
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 
-
-
+.info-service{
+  text-align: center;
+}
 
 
 /* debugg */
