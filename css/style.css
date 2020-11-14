@@ -63,7 +63,7 @@ a{
 }
 
 .btn-large{
-  padding: 25px;
+  padding: 20px;
 }
 
 .header-top{
@@ -190,14 +190,34 @@ main{
 }
 
 .second-section-bottom-left{
-  width: 20%;
-  height: 200px;
-  background-color: violet;
+  width: 30%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
+.img-info{
+  height: 250px;
+  text-align: center;
+
+}
+
+
+.margin-btn{
+  margin-top: 40px;
+}
+
+.second-section-bottom-left .img-info img{
+  max-height: 100px;
+  margin: 0 auto;
+
+}
+
+
+
 .second-section-bottom-right {
-  width: 80%;
-  height: 200px;
+  width: 70%;
+  height: 250px;
   background-color: pink;
 }
 
