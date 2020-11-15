@@ -430,26 +430,36 @@ padding-bottom: 25px;
 
 .customers{
   background-color: #fff;
-  padding: 40px 0;
+}
+
+.customers-top{
+  padding-top: 7%;
 }
 
 .customers-top-left{
   width: 40%;
-  padding: 0 10%;
+  padding-left: 9%;
 }
 
 .customers-top-left h2{
   font-size: 40px;
+  padding-bottom: 30px;
 }
 
 .customers-top-left p{
-  line-height: 25px;
-  text-align: left;
-  padding-top: 30px;
+  line-height: 30px;
+  text-align:left;
+  padding-right: 45%;
 }
 
 .customers-top-right{
   width: 60%;
+
+}
+
+.row-customers{
+  width: 100%;
+  padding: 0 10%;
 }
 
 .row-img-customer{
@@ -458,8 +468,42 @@ padding-bottom: 25px;
 }
 
 .row-img-customer img{
-  width: 55%;
+  width: 60%;
 }
+
+.customers-bottom{
+  width: 100%;
+}
+
+.customers-bottom-left{
+  width: 50%;
+  padding-top: 5%;
+}
+
+.customers-bottom-left-item{
+  width: 100%;
+}
+
+.customers-bottom-left-item h2{
+  padding-right: 200px;
+}
+
+.customers-bottom-left-item p {
+ padding: 60px 60px 60px 0;
+ line-height: 30px;
+}
+
+
+.customers-bottom-right{
+  width: 50%;
+  text-align: center;
+  padding: 2% 0 0 10%;
+}
+
+.customers-bottom-right img{
+  height: 350px;
+}
+
 
 /* debugg */
 .h-200{
