@@ -84,6 +84,8 @@ a{
 
 /* /regole riutillizzabili */
 
+/* HEader */
+
 .header-top{
   width: 100%;
   height: 80px;
@@ -182,15 +184,12 @@ header ul li{
   line-height: 1.6;
 }
 
+/* /Header */
+
 /* main */
 main{
   background-color: #f4f9fd;
 }
-
-/*
-.height-first-section{
-  height: 100%;
-} */
 
 .first-section-top{
   width: 68%;
@@ -462,7 +461,6 @@ padding-bottom: 25px;
 
 .customers-top-right{
   width: 60%;
-
 }
 
 .row-customers{
@@ -512,6 +510,9 @@ padding-bottom: 25px;
   height: 350px;
 }
 
+/* / Main */
+
+/* Footer */
 footer{
   color: #fff;
 }
@@ -567,6 +568,15 @@ footer{
   padding-right: 2%;
 }
 
+.footer-languages li:hover{
+  color: #00bcd4;
+  cursor: pointer;
+}
+
+.footer-bootm{
+  margin: 2% 0;
+}
+
 .footer-bottom hr{
   margin: 2% 0;
 }
@@ -591,33 +601,9 @@ footer{
   padding-left: 2%;
 }
 
-
-/* debugg */
-.h-200{
-  height: 200px;
+.privacy-footer li:hover{
+  color: #00bcd4;
+  cursor: pointer;
 }
 
-.h-500{
-  height: 500px;
-}
-
-.grigio{
-  background-color:lightgrey;
-}
-
-
-.rosso{
-  background-color: red;
-}
-
-.celeste{
-  background-color: lightblue;
-}
-
-.viola{
-  background-color: violet;
-}
-
-.giallo{
-  background-color: #ccd66c;
-}
+/* / Footer */
