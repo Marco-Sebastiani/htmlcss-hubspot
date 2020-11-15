@@ -450,7 +450,15 @@ padding-bottom: 25px;
 
 .customers-top-right{
   width: 60%;
+}
 
+.row-img-customer{
+  width: 25%;
+  padding: 20px;
+}
+
+.row-img-customer img{
+  width: 55%;
 }
 
 /* debugg */
