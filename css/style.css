@@ -381,11 +381,6 @@ main{
   line-height: 35px;
 }
 
-.customers{
-  background-color: #fff;
-}
-
-
 .link{
   background-color: #32495b;
 }
@@ -397,7 +392,14 @@ main{
 
 .row-item{
   width: 25%;
-  border: 1px solid #fff;
+}
+
+.row-color{
+  border-bottom: 1px solid #fff;
+}
+
+.row-item:not(:last-child){
+  border-right: 1px solid #fff;
 }
 
 .row-item img{
@@ -424,6 +426,18 @@ padding-bottom: 25px;
 
 #social-margin{
   padding-top: 13px;
+}
+
+.customers{
+  background-color: #fff;
+}
+
+.customers-top-left{
+  width: 40%;
+}
+
+.customers-top-right{
+  width: 60%;
 }
 
 /* debugg */
