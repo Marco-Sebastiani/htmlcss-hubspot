@@ -430,14 +430,27 @@ padding-bottom: 25px;
 
 .customers{
   background-color: #fff;
+  padding: 40px 0;
 }
 
 .customers-top-left{
   width: 40%;
+  padding: 0 10%;
+}
+
+.customers-top-left h2{
+  font-size: 40px;
+}
+
+.customers-top-left p{
+  line-height: 25px;
+  text-align: left;
+  padding-top: 30px;
 }
 
 .customers-top-right{
   width: 60%;
+
 }
 
 /* debugg */
