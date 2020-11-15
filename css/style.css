@@ -74,6 +74,14 @@ a{
   margin-top: 65px;
 }
 
+.btn-li{
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #dadee0;
+  color: #33475b;
+}
+
 /* /regole riutillizzabili */
 
 .header-top{
@@ -504,6 +512,37 @@ padding-bottom: 25px;
   height: 350px;
 }
 
+footer{
+  color: #fff;
+}
+
+.footer-column{
+  width: 25%;
+}
+
+.footer-column h4{
+  padding: 7% 0;
+}
+
+.footer-column ul li{
+  list-style: none;
+  line-height: 40px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.social-footer{
+  padding: 2% 0;
+}
+
+.social-footer li{
+  display: inline-block;
+  padding-right: 7%;
+}
+
+.social-footer li i{
+  font-size: 15px;
+}
 
 /* debugg */
 .h-200{
