@@ -607,3 +607,89 @@ footer{
 }
 
 /* / Footer */
+
+
+.container-fixed{
+  position: fixed;
+  bottom:0;
+  right: 0;
+}
+
+.container-chat{
+  position: relative;
+  z-index: 10;
+  width:300px;
+  height: 350px;
+}
+
+.container-img {
+
+  text-align: center;
+  padding-top: 10%;
+  z-index: 1;
+}
+
+#logo-avatar{
+width: 20%;
+padding: 10% 0;
+}
+
+
+.container-text{
+  margin-top: -20%;
+  z-index: 0;
+  width: 80%;
+  height:40%;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 10% 8%;
+  position: absolute;
+  left: 10%;
+  z-index: -1;
+}
+
+.x-div{
+  color: #839eba;
+  position: absolute;
+  margin-top: -50px;
+  right:40px;
+}
+
+
+.container-mex{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 5px;
+  right: 5px;
+  background-color: #425b76;
+  border-radius: 50%;
+}
+
+.logo-mex-top{
+  position: absolute;
+  font-size: 25px;
+  color: #fff;
+  bottom: 16px;
+  right: 14px;
+
+}
+
+.logo-mex-bottom{
+  position: absolute;
+  color:#fff;
+  font-size: 25px;
+  bottom: 12px;
+  right: 19px;
+
+}
+
+
+.logo-mex-center{
+  position: absolute;
+  color:#425b76;
+  font-size: 25px;
+  bottom: 14px;
+  right: 16px;
+
+}
